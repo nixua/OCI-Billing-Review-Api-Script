@@ -22,9 +22,9 @@ python3 -m venv /my_env_path/
 . /my_env_path/bin/activate
 ```
 
-####Installation of dependencies with pip
+#### Installation of dependencies with pip
 
-####Install pip
+#### Install pip
 
 ```bash
 pip install -U pip
