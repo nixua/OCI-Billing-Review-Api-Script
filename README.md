@@ -2,6 +2,7 @@ For resource and budget optimization purposes, it can be very useful to have a w
 
 To begin with, in order to isolate the script execution environment, we'll create a python virtual environment for it and install the dependencies required for its execution using pip.
 
+
 ## Creating a python virtualenv
 
 Install the latest version of python (3.x)
