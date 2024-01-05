@@ -1,7 +1,6 @@
 For resource and budget optimization purposes, it can be very useful to have a way of keeping control of deployments in a cloud tenant by generating, via APIs, a report of the number of resources by category and with dynamic date filtering.
 
 
-
 To begin with, in order to isolate the script execution environment, we'll create a python virtual environment for it and install the dependencies required for its execution using pip.
 
 #### Creating a python virtualenv
@@ -22,9 +21,9 @@ python3 -m venv /my_env_path/
 . /my_env_path/bin/activate
 ```
 
-## Installation of dependencies with pip
+## Install dependencies with pip
 
-## Install pip
+Install pip
 
 ```bash
 pip install -U pip
@@ -36,7 +35,7 @@ pip install -U pip
 pip install oci-cli
 ```
 
-## Configure oci-cli
+Configure oci-cli
 
 After installation, configure authentication using the command below
 
