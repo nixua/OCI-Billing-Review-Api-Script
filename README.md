@@ -22,21 +22,21 @@ python3 -m venv /my_env_path/
 . /my_env_path/bin/activate
 ```
 
-#### Installation of dependencies with pip
+## Installation of dependencies with pip
 
-#### Install pip
+## Install pip
 
 ```bash
 pip install -U pip
 ```
 
-##### Installing oci-cli command
+## Installing oci-cli command
 
 ```bash
 pip install oci-cli
 ```
 
-##### Configure oci-cli
+## Configure oci-cli
 
 After installation, configure authentication using the command below
 
@@ -54,7 +54,7 @@ This will guide you through configuring authentication information, including ad
 oci --version
 ```
 
-##### Trying oci-cli
+## Trying oci-cli
 
 Once configured, you can use the OCI CLI to perform actions such as listing instances, volumes, networks, etc. Use commands like `oci compute instance list` to list instances. Use commands like `oci compute instance list` to list instances.( Be sure to adjust `<compartment-id>` with the ID of the appropriate compartment where your instances are located).
 
@@ -62,7 +62,7 @@ Once configured, you can use the OCI CLI to perform actions such as listing inst
 oci compute instance list --compartment-id <compartment-id>
 ```
 
-##### Use the script
+## Use the script
 
 Once the basic environment has been set up and is up and running, all we have to do is install our script on the server and run it.
 
