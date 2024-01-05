@@ -42,9 +42,6 @@ After installation, configure authentication using the command below
 ```bash
 oci setup config
 ```
-
-This will guide you through configuring authentication information, including adding your API key, API secret and other necessary details.
-
 - **Configure Authentication**: Configure authentication using this will guide you through configuring authentication information, including adding your API key, API secret, and other details.
 - **Region configuration**: Configure the region using or by modifying the OCI configuration file (`~/.oci/config`). Select the appropriate region for your Oracle Cloud Infrastructure.
 - **Installation check**: Check that the OCI CLI is correctly installed by running :
